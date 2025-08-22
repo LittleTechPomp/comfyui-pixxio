@@ -12,7 +12,7 @@ class AutoUploadImageToPixxioCollection:
             "required": {
                 "image": ("IMAGE",),
                 "api_key": ("STRING", {"default": ""}),
-                "collection_id": ("INT", {"default": 0}),
+                "collection_id": ("STRING", {"default": 0}),
                 "mediaspace_url": ("STRING", {"default": ""}),
                 "file_name": ("STRING", {"default": "comfyui_upload.jpg"}),
                 "description": ("STRING", {"default": "Uploaded via ComfyUI"}),
@@ -99,3 +99,4 @@ NODE_CLASS_MAPPINGS = {
 NODE_DISPLAY_NAME_MAPPINGS = {
     "AutoUploadImageToPixxioCollection": "Auto-Upload Image to Pixxio Collection",
 }
+
